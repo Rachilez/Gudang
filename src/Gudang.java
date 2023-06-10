@@ -6,7 +6,8 @@ public class Gudang {
 
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         Scanner key = new Scanner(System.in);
-
+        
+        //INPUT
         System.out.print("\nMasukkan nama anda: ");
         String nama = key.nextLine();
         System.out.println("\nStok Gudang Input Barang");
@@ -24,7 +25,8 @@ public class Gudang {
 
         System.out.print("Masukkan harga jual barang tersebut\t: Rp.");
         double hargajual = key.nextDouble();
-
+        
+        //OUTPUT
         System.out.println("\nStok Gudang Rincian Barang");
         System.out.println("##########################\n");
         System.out.println("Nama Barang\t: " + namabarang);
