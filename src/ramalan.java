@@ -7,7 +7,8 @@ public class ramalan {
         DecimalFormat decimalFormat = new DecimalFormat("0.00");
         System.out.println("\nSelamat datang Di Program Ramalan Cupu");
         System.out.println("++++++++++++++++++++++++++++++++++++++\n");
-
+        
+        //INPUT
         System.out.println("Data Anda");
         System.out.println("*********");
         System.out.print("Masukkan nama Anda: ");
@@ -24,6 +25,7 @@ public class ramalan {
         int umurPasangan = Inputs.nextInt();
         System.out.print("\n");
 
+        //PROCESS
         System.out.println(nama + " [" + umur + "] " + "Tahun\n");
         String[] luv = {
 
@@ -43,7 +45,8 @@ public class ramalan {
         Scanner input = new Scanner(System.in);
         System.out.print("Tekan ENTER untuk melihat hasil ramalan..");
         input.nextLine();
-
+        
+        //OUTPUT
         double hasilKecocokan = Math.random() * 50 + 50;
         hasilKecocokan /= 1.1;
 
